@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "customdonuthud",
+  "version": "${version}",
+  "name": "Custom Donut HUD",
+  "description": "Client-side cosmetic scoreboard HUD with fully editable fake stats, for staged footage. Press M to configure.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.customdonuthud.CustomDonutHud"],
+    "client": ["com.customdonuthud.CustomDonutHudClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
